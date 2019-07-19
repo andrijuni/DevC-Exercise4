@@ -1,0 +1,86 @@
+body {
+    background-image: url("/img/WP_20150308_12_11_45_Pro.jpg");
+}
+
+nav {
+	background-color: lightgreen;
+	height: 40px;
+	font-family: lora;
+}
+
+.container {
+    margin: 20px;
+}
+
+.panel.panel-heading {
+    background-color:lavender;
+    margin-bottom: 1px;
+}
+
+.panel.panel-body {
+    border: 1px solid lavender;
+    background-image: url("img/Banner_MP_web_2018.jpg");
+    margin-bottom: -20px;
+}
+
+.bio {
+    font-family: lora;
+}
+
+.panel.panel-footer {
+
+    border: 1px solid greenyellow;
+
+}
+
+
+.glyphicon.glyphicon-home {
+    color: greenyellow;
+}
+
+.glyphicon.glyphicon-cutlery {
+    color: silver;
+}
+
+.glyphicon.glyphicon-heart {
+    color: red;
+}
+
+.glyphicon.glyphicon-headphones {
+    color: green;
+}
+
+.glyphicon.glyphicon-phone {
+    color: pink;
+}
+
+.glyphicon.glyphicon-map-marker {
+    color: cornflowerblue;
+}
+
+
+.img.text-center {
+    padding: 20px;
+    font-family: lora;
+}
+
+h1.text-center {
+    color: cornflowerblue;
+}
+
+img.img-circle {
+ width: 110px;
+ height: 120px;
+}
+
+.img-responsive.text-center {
+    background: white;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 10px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}

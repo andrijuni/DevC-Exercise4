@@ -1,0 +1,81 @@
+body {
+
+}
+
+nav {
+	background-color:darkseagreen;
+	height: 50px;
+	font-family: lora;
+	font-size: 16px;
+}
+
+ul > li >i {
+	margin: 5px;
+}
+
+#navbarTogglerDemo03 a {
+	color: white;
+	padding-bottom: 0px;
+	padding-right: 20px;
+}
+form.form-inline {
+	height: 20px;
+	padding-bottom: 40px;
+}
+input.form-control.mr-sm-2 {
+	width: 300px;
+}
+
+#slider-animation{
+	max-height:550px;
+}
+
+img {
+	height: 420px;
+}
+
+.heading-box h2{ width:100%; color: red; }
+h2, p{color:#fff;}
+.carousel-item img{width:100%;}
+.text-box {
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	right: 15%;
+	color: #000;
+	transform: translateY(-50%);
+}
+
+.text.text-center h4 {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	text-align: center;
+	font-family: lora;
+}
+
+.text.text-center {
+	margin-top: 0px;
+	background-color: darkseagreen;
+}
+
+button.btn.btn-success {
+	margin: 20px;
+}
+
+.card {
+	margin: 10px;
+	margin-bottom: 50px;
+}
+
+.footer {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background-color: darkslateblue;
+	color: whitesmoke;
+	text-align: center;
+	font-family: lora;
+	padding-top: 10px;
+
+ }
+
