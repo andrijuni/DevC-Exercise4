@@ -9,8 +9,8 @@ nav {
 	font-size: 16px;
 }
 
-ul > li >i {
-	margin: 5px;
+ul > li > a > i {
+	margin: 0px;
 }
 
 #navbarTogglerDemo03 a {
@@ -65,6 +65,18 @@ button.btn.btn-success {
 .card {
 	margin: 10px;
 	margin-bottom: 50px;
+}
+
+.modal-header {
+	background-color: lightgreen;
+}
+
+.modal-body {
+
+}
+
+.modal-footer {
+	background-color: darkslateblue;
 }
 
 .footer {
