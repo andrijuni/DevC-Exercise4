@@ -21,6 +21,7 @@ ul > li > a > i {
 form.form-inline {
 	height: 20px;
 	padding-bottom: 40px;
+	padding-left: 50px;
 }
 input.form-control.mr-sm-2 {
 	width: 300px;
@@ -72,7 +73,7 @@ button.btn.btn-success {
 }
 
 .modal-body {
-
+	background-color: transparent;
 }
 
 .modal-footer {

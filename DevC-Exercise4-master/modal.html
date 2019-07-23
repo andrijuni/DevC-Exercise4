@@ -1,0 +1,122 @@
+<div class="text text-center">
+        <h4>Final Project</h4>
+            <button class="btn btn-success" data-toggle="modal" data-target="#surel"><i class="fa fa-envelope-o"></i> Kirim Email</button>
+    </div>
+
+    <div id="surel" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel">
+                    <i class="fa fa-list-alt"></i>
+                    Kirim Data Diri
+                  </h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                <div class="modal-body">
+                  <form action="https://formspree.io/andri.juni@outlook.com" method="POST" name="modal_popup" enctype="multipart/form-data">
+
+                    <div class="form-group">
+                      <label>NIK</label>
+                      <input type="text" class="form-control" name="nik" autocomplete="off" maxlength="10" required/>
+                    </div>
+
+                    <div class="form-group">
+                      <label>Nama</label>
+                      <input type="text" class="form-control" name="nama" autocomplete="off" required/>
+                    </div>
+
+                    <div class="form-group">
+                      <label>Tempat Lahir</label>
+                      <input type="text" class="form-control" name="tempat_lahir" autocomplete="off" required/>
+                    </div>
+
+                    <div class="form-group">
+                      <label>Tanggal Lahir</label>
+                      <div class="input-group">
+                        <input type="text" class="form-control date-picker" data-date-format="dd-mm-yyyy" name="tanggal_lahir" autocomplete="off" required>
+                        <span class="input-group-addon"></span>
+                          <i class="fa fa-calendar"></i>
+                        </span>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label>Jenis Kelamin</label>
+                      <div class="radio">
+                        <label class="radio-inline">
+                          <input type="radio" name="jenis_kelamin" value="Laki-laki"> Laki-laki
+                        </label>
+
+                        <label class="radio-inline">
+                          <input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan
+                        </label>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label>Agama</label>
+                      <select class="form-control" name="agama" placeholder="Pilih Agama" required>
+                        <option value=""></option>
+                        <option value="Islam">Islam</option>
+                        <option value="Kristen Protestan">Kristen Protestan</option>
+                        <option value="Kristen Katolik">Kristen Katolik</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Buddha">Buddha</option>
+                      </select>
+                    </div>
+
+                    <div class="form-group">
+                      <label>Alamat</label>
+                      <textarea class="form-control" name="alamat" rows="3" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                      <label>Telepon</label>
+                      <input type="text" class="form-control" name="telepon" autocomplete="off" maxlength="13" onKeyPress="return goodchars(event,'0123456789',this)" required>
+                    </div>
+
+                    <div class="form-group">
+                      <label>Foto</label>
+                      <input type="file" name="foto" required>
+                      <p class="help-block">
+                        <small>Catatan :</small> <br>
+                        <small>- Pastikan file yang diupload bertipe *.JPG atau *.PNG</small> <br>
+                        <small>- Ukuran file foto max 1 Mb</small>
+                      </p>
+                    </div>
+
+                    <div class="modal-footer">
+                      <input type="submit" class="btn btn-success btn-submit" name="" value="Kirim">
+                      <button type="reset" class="btn btn-danger btn-reset" data-dismiss="modal" aria-hidden="true">Batal</button>
+                    </div>
+
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal Popup untuk ubah-->
+          <div id="modal_ubah" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+          </div>
+
+          <!-- Modal Popup untuk hapus -->
+          <div class="modal fade" id="modal_hapus">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title"><i style="margin-right:7px" class="glyphicon glyphicon-trash"></i> Anda yakin ingin menghapus data mahasiswa ?</h4>
+                </div>
+                <div class="modal-footer">
+                  <a href="#" type="button" class="btn btn-danger btn-submit" id="link_hapus">Ya, Hapus</a>
+                  <button type="button" class="btn btn-default btn-reset" data-dismiss="modal">Batal</button>
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -- -->

@@ -1,5 +1,5 @@
 body {
-    background-image: url("/img/WP_20150308_12_11_45_Pro.jpg");
+    background-image: url("../img/WP_20150308_12_11_45_Pro.jpg");
 }
 
 nav {
@@ -19,7 +19,7 @@ nav {
 
 .panel.panel-body {
     border: 1px solid lavender;
-    background-image: url("img/Banner_MP_web_2018.jpg");
+    background-image: url("../img/Banner_MP_web_2018.jpg");
     margin-bottom: -20px;
 }
 
